@@ -8,11 +8,7 @@
   box-sizing: border-box; 
 }
 
-* {
-    -webkit-box-sizing: border-box;
-       -moz-box-sizing: border-box;
-            box-sizing: border-box;
-}
+
 
 .clearfix:after { 
    content: "."; 
@@ -40,6 +36,10 @@ body {
   text-align: center; 
 }
 
+.left-align {
+  text-align: left; 
+}
+
 /*******************************
 HEADER STYLING
 *******************************/
@@ -56,9 +56,9 @@ header {
 
 
 /*******************************
-SECTION STYLING
+FORM AND WRAPPER STYLING
 *******************************/
-.first-form, .second-form {
+form {
   margin: 0 10%; 
 }
 
@@ -66,7 +66,11 @@ SECTION STYLING
   margin: 0 3%; 
 }
 
-.first-form h2 {
+/*******************************
+FIRST FIELDSET STYLING
+*******************************/
+
+.signup-for-our-newsletter {
     text-align: center; 
     padding: 5% 0;
     margin: 0;
@@ -78,18 +82,16 @@ fieldset {
   margin: 0; 
 }
 
-.first-form p {
-  text-align: center; 
-}
 
 .paragraph-one {
   border-bottom: solid 5px black; 
   margin-bottom: 1px; 
   padding-bottom: 10%; 
+  margin-top: 0;
 }
 
 
-.first-form legend {
+.fieldset-one legend {
   border-top: solid 2.5px black; 
   margin: 3.5px 0 0 0;
   padding: 10% 0 5%; 
@@ -123,7 +125,6 @@ form select {
 }
 
 input[placeholder]  {
-   font-style: none;
    font-weight: 100; 
    font-size: 1.4em; 
    padding-right: 5%; 
@@ -135,10 +136,10 @@ input[placeholder]  {
 }
 
 /*******************************
-SECOND SECTION STYLING
+SECOND FIELDSET STYLING
 *******************************/
 
-.second-form h1 {
+.fieldset-two legend {
     border-top: solid 2px; 
     padding-top: 7%;
     margin-top: 0;
@@ -163,10 +164,6 @@ input[type="checkbox"] {
 }
 
 
-.second-form p {
-  text-align: left; 
-}
-
 .radio-text {
   margin-left: 1.5%;
 }
@@ -178,14 +175,11 @@ input[type="radio"] {
 }
 
 
-input:focus, textarea:focus {
+input:focus, textarea:focus, select:focus {
   outline-color: blue;
    background-color: grey;
-  -webkit-transition: all 1s ease-in-out;
-  -moz-transition: all 1s ease-in-out;
-  -ms-transition: all 1s ease-in-out;
-  -o-transition: all 1s ease-in-out;
-  transition: all 1s ease-in-out;
+  
+  transition: background-color 1s linear;
  
   
 }

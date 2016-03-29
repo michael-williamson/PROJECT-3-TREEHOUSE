@@ -10,7 +10,7 @@
   height: 100%; 
 }
   
-  .first-form h2 {
+  .signup-for-our-newsletter {
     padding-top: 7%; 
     padding-bottom: 2%; 
     text-align: center; 
@@ -18,20 +18,20 @@
     
   }
   
-  .first-form p {
+  .paragraph-one {
     padding-bottom: 4%; 
     margin-top: 0; 
     font-size: 1.2em; 
     color: grey; 
   }
   
-  .first-form, .second-form {
+ form {
     margin: 0 20%; 
   }
   
 
   
-  .first-form legend {
+  .fieldset-one legend {
     text-align: left;
     font-size: 2.1em; 
     font-weight: 700; 
@@ -39,7 +39,7 @@
   }
  
   
-  .first-form label {
+  .fieldset-one label {
     float: left;
     width: 25%;
     margin-top: 12px;
@@ -76,7 +76,7 @@ form select
   }
   
   
-  .first-form label {
+  .fieldset-one label {
     font-size: 1.1em; 
     margin-top: 14px;
   }

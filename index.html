@@ -13,14 +13,14 @@
     <header>
       THE CODE REVIEW
     </header>
-      <form class="first-form bg-wrapper-style">
+      <form action="index.html" method="post" class="bg-wrapper-style">
         <div class="wrapper">
-          <h2>Signup for our newsletter</h2>
-           <p class="paragraph-one">Get the latest news on how your code is doing in your inbox</p>
-              <fieldset>
+          <h2 class="signup-for-our-newsletter">Signup for our newsletter</h2>
+           <p class="paragraph-one center-align">Get the latest news on how your code is doing in your inbox</p>
+            <fieldset class="fieldset-one">
                 <legend>Contact Information</legend>  
-                 <label for="fullname">Full Name</label><input type="text" id="fullname" placeholder="Required" name="contact-fullname">
-                 <label for="email" class="email-address">Email Address</label><input type="email" id="email" placeholder="Required" name="contact-email">
+                 <label for="fullname" class="label-fullname">Full Name</label><input type="text" id="fullname" placeholder="Required" name="contact-fullname" title="Firstname Lastname" required>
+                 <label for="email" class="email-address">Email Address</label><input type="email" id="email" placeholder="Required" name="contact-email" required>
                       <label for="phonenumber">Phone Number</label>
                       <input type="tel" id="phonenumber" placeholder="xxx-xxx-xxxx" name="contact-phonenumber">
                       <label for="website">Website</label>
@@ -84,23 +84,19 @@
                             <option value="WI">Wisconsin</option>
                             <option value="WY">Wyoming</option>
                          </select>
-                      <label for"zipcode">Zip Code</label>
+                      <label for="zipcode">Zip Code</label>
                       <input type="text" id="zipcode" class="zipcode-class" name="contact-zipcode">
-                </fieldset>
-          </div>
-       </form>
-       <form class="second-form bg-wrapper-style">
-          <div class="wrapper">
-            <fieldset>
-               <h1>Newsletter</h1>
-                 <p>Select the newsletters you would like to recieve</p>
+              </fieldset>
+              <fieldset class="fieldset-two">
+               <h1 class=".newsletter-text">Newsletter</h1>
+                 <p class="left-align">Select the newsletters you would like to recieve</p>
                       <input type="checkbox" id="htmlnews" value="news-html" name="newsletter"><label for="htmlnews">HTML News</label><br>
                       <input type="checkbox" id="cssnews" value="news-css" name="newsletter"><label for="cssnews">CSS News</label><br>
                       <input type="checkbox" id="javascriptnews" value="news-javascript" name="newsletter"><label for="javascriptnews">Javascript News</label>
-              <p>Newsletter Format</p>
-              <input type="radio" value="HTML" id="html" name="news-format"><label for="html" class="radio-text">HTML</label>                        <br>
-              <input type="radio" value="Plain Text" id="plaintext" name="news-format"><label for="plaintext" class="radio-text">Plain Text</label>
-              <p>Other topics you's like to hear about</p>
+                <p>Newsletter Format</p>
+                      <input type="radio" value="HTML" id="html" name="news-format"><label for="html" class="radio-text">HTML</label>                        <br>
+                      <input type="radio" value="Plain Text" id="plaintext" name="news-format"><label for="plaintext" class="radio-text">Plain Text</label>
+               <p>Other topics you's like to hear about</p>
               <textarea class="textarea"></textarea>
             </fieldset>
           <footer class="footer">
