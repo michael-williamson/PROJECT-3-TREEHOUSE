@@ -94,7 +94,7 @@ fieldset {
 .fieldset-one legend {
   border-top: solid 2.5px black; 
   margin: 3.5px 0 0 0;
-  padding: 10% 0 5%; 
+  padding: 10% 0 10%; 
   width: 100%;
   text-align: left; 
   font-size: 1.6em;
@@ -130,9 +130,9 @@ input[placeholder]  {
    padding-right: 5%; 
 }
 
-.zipcode-class {
+#zipcode {
   width: 45%; 
-  margin-bottom: 30%; 
+  margin-bottom: 10%; 
 }
 
 /*******************************
@@ -140,9 +140,13 @@ SECOND FIELDSET STYLING
 *******************************/
 
 .fieldset-two legend {
-    border-top: solid 2px; 
-    padding-top: 7%;
-    margin-top: 0;
+  border-top: solid 2.5px black; 
+  margin: 3.5px 0 0 0;
+  padding: 7% 0 5%; 
+  width: 100%;
+  text-align: left; 
+  font-size: 1.6em;
+  font-weight: 600; 
 }
 
 .textarea {
@@ -178,10 +182,7 @@ input[type="radio"] {
 input:focus, textarea:focus, select:focus {
   outline-color: blue;
    background-color: grey;
-  
   transition: background-color 1s linear;
- 
-  
 }
 
 
