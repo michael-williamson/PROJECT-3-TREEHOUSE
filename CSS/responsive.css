@@ -1,0 +1,94 @@
+
+@media only screen and (min-width: 760px) {       /* LARGER SCRENS AND DESKTOP SCREENS ******/
+  
+  header{
+    padding: 7% 0;
+  }
+  
+  .bg-wrapper-style {
+  background-color: rgba(255, 255, 255, .9); 
+  height: 100%; 
+}
+  
+  .first-form h2 {
+    padding-top: 7%; 
+    padding-bottom: 2%; 
+    text-align: center; 
+    font-size: 1.8em; 
+    
+  }
+  
+  .first-form p {
+    padding-bottom: 4%; 
+    margin-top: 0; 
+    font-size: 1.2em; 
+    color: grey; 
+  }
+  
+  .first-form, .second-form {
+    margin: 0 20%; 
+  }
+  
+
+  
+  .first-form legend {
+    text-align: left;
+    font-size: 2.1em; 
+    font-weight: 700; 
+    padding: 5% 0 3%; 
+  }
+ 
+  
+  .first-form label {
+    float: left;
+    width: 25%;
+    margin-top: 12px;
+    font-size: .9em;
+    
+  }
+  
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+input[type="url"],
+form select
+  {
+    width: 75%;
+    margin: 0 0 5%;
+    color: black; 
+    padding: 2% 0; 
+  }
+  
+  input[placeholder]  {
+    padding-right: 2%; 
+   }
+  
+  #signup-button {
+    border-radius: 5px; 
+  }
+
+}
+
+@media only screen and (min-width: 1024px) {   /* LARGER DESKTOP SCREENS ******/
+  
+  header {
+    padding: 3% 0; 
+  }
+  
+  
+  .first-form label {
+    font-size: 1.1em; 
+    margin-top: 14px;
+  }
+  
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+input[type="url"],
+form select
+  {
+    width: 75%;
+  }
+  
+  
+}

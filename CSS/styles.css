@@ -1,0 +1,220 @@
+/*
+* {
+  border:solid 1px red; 
+}
+*/
+
+* {
+  box-sizing: border-box; 
+}
+
+* {
+    -webkit-box-sizing: border-box;
+       -moz-box-sizing: border-box;
+            box-sizing: border-box;
+}
+
+.clearfix:after { 
+   content: "."; 
+   visibility: hidden; 
+   display: block; 
+   height: 0; 
+   clear: both;
+}
+
+
+body {
+  margin: 0;
+  background-image: url(../image/water-drops.jpg);
+  background-repeat: no-repeat;
+  background-size: cover; 
+  font-family: 'Open Sans', sans-serif;
+}
+
+.bg-wrapper-style {
+  background-color: rgba(255, 255, 255, .7); 
+  height: 100%; 
+}
+
+.center-align {
+  text-align: center; 
+}
+
+/*******************************
+HEADER STYLING
+*******************************/
+
+header {
+  text-align: center; 
+  width: 100%; 
+  color: white; 
+  background-color: #000d1a; 
+  font-size: 1.6em; 
+  margin: 0;
+  padding: 10% 0;
+}
+
+
+/*******************************
+SECTION STYLING
+*******************************/
+.first-form, .second-form {
+  margin: 0 10%; 
+}
+
+.wrapper  {
+  margin: 0 3%; 
+}
+
+.first-form h2 {
+    text-align: center; 
+    padding: 5% 0;
+    margin: 0;
+}
+
+fieldset {
+  border: none; 
+  padding: 0;
+  margin: 0; 
+}
+
+.first-form p {
+  text-align: center; 
+}
+
+.paragraph-one {
+  border-bottom: solid 5px black; 
+  margin-bottom: 1px; 
+  padding-bottom: 10%; 
+}
+
+
+.first-form legend {
+  border-top: solid 2.5px black; 
+  margin: 3.5px 0 0 0;
+  padding: 10% 0 5%; 
+  width: 100%;
+  text-align: left; 
+  font-size: 1.6em;
+  font-weight: 600; 
+}
+
+
+::-webkit-input-placeholder {
+   text-align: right;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+input[type="url"],
+form select {
+  display: block;
+  border: none; 
+  background-color: lightgrey; 
+  margin: 5% 0;
+  padding: 4% 0;
+  width: 100%;
+  text-indent: 7%; 
+  font-size: 1.4em; 
+  height: auto;
+  border-radius: 3px; 
+  color: black; 
+}
+
+input[placeholder]  {
+   font-style: none;
+   font-weight: 100; 
+   font-size: 1.4em; 
+   padding-right: 5%; 
+}
+
+.zipcode-class {
+  width: 45%; 
+  margin-bottom: 30%; 
+}
+
+/*******************************
+SECOND SECTION STYLING
+*******************************/
+
+.second-form h1 {
+    border-top: solid 2px; 
+    padding-top: 7%;
+    margin-top: 0;
+}
+
+.textarea {
+  height: 200px;
+  resize: none; 
+  display: block;
+  background-color: lightgrey; 
+  width: 100%;
+  border: none;
+  text-indent: 2%; 
+  font-size: 1.3em; 
+  line-height: 1.1em; 
+  border-radius: 2px; 
+}
+
+input[type="checkbox"] {
+  margin: 2% 2% 0 0;
+
+}
+
+
+.second-form p {
+  text-align: left; 
+}
+
+.radio-text {
+  margin-left: 1.5%;
+}
+
+input[type="radio"] {
+  margin-right: 0;
+  margin-top: 2%; 
+  
+}
+
+
+input:focus, textarea:focus {
+  outline-color: blue;
+   background-color: grey;
+  -webkit-transition: all 1s ease-in-out;
+  -moz-transition: all 1s ease-in-out;
+  -ms-transition: all 1s ease-in-out;
+  -o-transition: all 1s ease-in-out;
+  transition: all 1s ease-in-out;
+ 
+  
+}
+
+
+/*******************************
+ footer styling
+*******************************/
+
+
+#signup-button {
+  width: 100%;
+  background-color: #1affc6;
+  padding: 10% 0;
+  border-radius: 5px;
+  color: white; 
+  font-size: 1.75em; 
+  margin-top: 5%; 
+  border: none;
+ 
+}
+
+.footer p {
+  text-align: center;
+  margin-top: 8%; 
+  margin-bottom: 10%; /* Provides space for bottom of page*/
+  font-style: italic; 
+  font-weight: 100; 
+  color: grey; 
+}
+
+
